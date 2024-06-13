@@ -1,4 +1,3 @@
-
 cmake_minimum_required(VERSION 3.10)
 project(DepthEstimationApp)
 
@@ -18,7 +17,7 @@ add_executable(DepthEstimationApp src/main.cpp src/CameraHandler.cpp src/EdgeDet
 target_link_libraries(DepthEstimationApp ${OpenCV_LIBS})
 
 # Libtorch settings
-set(CMAKE_PREFIX_PATH `python3 -c 'import torch;print(torch.utils.cmake_prefix_path)'`)
+set(CMAKE_PREFIX_PATH /home/dd/libtorch)
 find_package(Torch REQUIRED)
 
 # Link Torch libraries
