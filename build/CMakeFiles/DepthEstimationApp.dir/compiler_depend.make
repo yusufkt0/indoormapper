@@ -131,10 +131,12 @@ CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/pr
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
   /usr/include/c++/14.1.1/bits/nested_exception.h \
   /usr/include/c++/14.1.1/bits/new_allocator.h \
+  /usr/include/c++/14.1.1/bits/node_handle.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
   /usr/include/c++/14.1.1/bits/parse_numbers.h \
@@ -148,6 +150,7 @@ CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/pr
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
@@ -177,12 +180,14 @@ CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/pr
   /usr/include/c++/14.1.1/bits/stl_vector.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
   /usr/include/c++/14.1.1/bits/uniform_int_dist.h \
   /usr/include/c++/14.1.1/bits/unique_lock.h \
   /usr/include/c++/14.1.1/bits/unique_ptr.h \
   /usr/include/c++/14.1.1/bits/unordered_map.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
+  /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
@@ -231,6 +236,10 @@ CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/pr
   /usr/include/c++/14.1.1/mutex \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/ostream \
+  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/queue \
   /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/set \
@@ -239,7 +248,20 @@ CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/pr
   /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
+  /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeinfo \
@@ -5014,10 +5036,12 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
   /usr/include/c++/14.1.1/bits/nested_exception.h \
   /usr/include/c++/14.1.1/bits/new_allocator.h \
+  /usr/include/c++/14.1.1/bits/node_handle.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
   /usr/include/c++/14.1.1/bits/parse_numbers.h \
@@ -5043,6 +5067,7 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
@@ -5076,6 +5101,7 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/bits/stream_iterator.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
   /usr/include/c++/14.1.1/bits/this_thread_sleep.h \
   /usr/include/c++/14.1.1/bits/uniform_int_dist.h \
@@ -5084,6 +5110,7 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/bits/unordered_map.h \
   /usr/include/c++/14.1.1/bits/unordered_set.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
+  /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
@@ -5139,6 +5166,11 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/numeric \
   /usr/include/c++/14.1.1/optional \
   /usr/include/c++/14.1.1/ostream \
+  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_numeric_defs.h \
+  /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/queue \
   /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/regex \
@@ -5153,6 +5185,18 @@ CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/p
   /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
   /usr/include/c++/14.1.1/thread \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeindex \
@@ -5451,10 +5495,12 @@ CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/pro
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
   /usr/include/c++/14.1.1/bits/nested_exception.h \
   /usr/include/c++/14.1.1/bits/new_allocator.h \
+  /usr/include/c++/14.1.1/bits/node_handle.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
   /usr/include/c++/14.1.1/bits/parse_numbers.h \
@@ -5468,6 +5514,7 @@ CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/pro
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
@@ -5497,12 +5544,14 @@ CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/pro
   /usr/include/c++/14.1.1/bits/stl_vector.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
   /usr/include/c++/14.1.1/bits/uniform_int_dist.h \
   /usr/include/c++/14.1.1/bits/unique_lock.h \
   /usr/include/c++/14.1.1/bits/unique_ptr.h \
   /usr/include/c++/14.1.1/bits/unordered_map.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
+  /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
@@ -5551,6 +5600,10 @@ CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/pro
   /usr/include/c++/14.1.1/mutex \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/ostream \
+  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/queue \
   /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/set \
@@ -5559,7 +5612,20 @@ CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/pro
   /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
+  /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeinfo \
@@ -5853,10 +5919,12 @@ CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/proje
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
   /usr/include/c++/14.1.1/bits/nested_exception.h \
   /usr/include/c++/14.1.1/bits/new_allocator.h \
+  /usr/include/c++/14.1.1/bits/node_handle.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
   /usr/include/c++/14.1.1/bits/parse_numbers.h \
@@ -5870,6 +5938,7 @@ CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/proje
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
@@ -5899,12 +5968,14 @@ CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/proje
   /usr/include/c++/14.1.1/bits/stl_vector.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
   /usr/include/c++/14.1.1/bits/uniform_int_dist.h \
   /usr/include/c++/14.1.1/bits/unique_lock.h \
   /usr/include/c++/14.1.1/bits/unique_ptr.h \
   /usr/include/c++/14.1.1/bits/unordered_map.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
+  /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
@@ -5953,6 +6024,10 @@ CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/proje
   /usr/include/c++/14.1.1/mutex \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/ostream \
+  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/queue \
   /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/set \
@@ -5961,7 +6036,20 @@ CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/proje
   /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
+  /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeinfo \
@@ -10739,10 +10827,12 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
   /usr/include/c++/14.1.1/bits/nested_exception.h \
   /usr/include/c++/14.1.1/bits/new_allocator.h \
+  /usr/include/c++/14.1.1/bits/node_handle.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
   /usr/include/c++/14.1.1/bits/parse_numbers.h \
@@ -10768,6 +10858,7 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
@@ -10801,6 +10892,7 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/bits/stream_iterator.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
   /usr/include/c++/14.1.1/bits/this_thread_sleep.h \
   /usr/include/c++/14.1.1/bits/uniform_int_dist.h \
@@ -10809,6 +10901,7 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/bits/unordered_map.h \
   /usr/include/c++/14.1.1/bits/unordered_set.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
+  /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
@@ -10864,6 +10957,11 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/numeric \
   /usr/include/c++/14.1.1/optional \
   /usr/include/c++/14.1.1/ostream \
+  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_numeric_defs.h \
+  /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/queue \
   /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/regex \
@@ -10878,6 +10976,18 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
   /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
   /usr/include/c++/14.1.1/thread \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeindex \
@@ -11244,8 +11354,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/vstack.h:
 
 /home/dd/libtorch/include/ATen/ops/vsplit_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/view_native.h:
 
 /home/dd/libtorch/include/ATen/ops/view_copy_ops.h:
 
@@ -12103,6 +12211,8 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/replication_pad2d_backward_native.h:
 
+/usr/include/c++/14.1.1/pstl/glue_numeric_defs.h:
+
 /home/dd/libtorch/include/ATen/ops/replication_pad1d_backward_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/replication_pad1d_backward.h:
@@ -12178,8 +12288,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/reciprocal_meta.h:
 
 /home/dd/libtorch/include/ATen/ops/reciprocal.h:
-
-/home/dd/libtorch/include/ATen/ops/real_native.h:
 
 /home/dd/libtorch/include/ATen/ops/real.h:
 
@@ -12573,10 +12681,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/mul_native.h:
 
-/home/dd/libtorch/include/ATen/ops/pow_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/mul_meta.h:
-
 /home/dd/libtorch/include/ATen/ops/msort_native.h:
 
 /home/dd/libtorch/include/ATen/ops/mse_loss_ops.h:
@@ -12911,10 +13015,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/logical_and_ops.h:
 
-/usr/include/c++/14.1.1/string_view:
-
-/home/dd/libtorch/include/ATen/ops/logical_and_native.h:
-
 /home/dd/libtorch/include/ATen/ops/nll_loss_forward.h:
 
 /home/dd/libtorch/include/ATen/ops/logcumsumexp_native.h:
@@ -13120,8 +13220,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/rsqrt.h:
 
 /home/dd/libtorch/include/ATen/ops/linalg_inv_ex.h:
-
-/home/dd/libtorch/include/ATen/ops/linalg_inv.h:
 
 /home/dd/libtorch/include/ATen/ops/linalg_householder_product_native.h:
 
@@ -14113,8 +14211,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/fbgemm_linear_quantize_weight.h:
 
-/home/dd/libtorch/include/ATen/ops/fbgemm_linear_int8_weight_ops.h:
-
 /home/dd/libtorch/include/ATen/ops/zeros_like.h:
 
 /home/dd/libtorch/include/ATen/ops/fbgemm_linear_int8_weight_native.h:
@@ -14233,29 +14329,63 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/erfc_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear_ops.h:
+/home/dd/libtorch/include/ATen/ops/unique_dim_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/refine_names_ops.h:
+/home/dd/libtorch/include/ATen/ops/special_i1_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/poisson.h:
+/home/dd/libtorch/include/ATen/ops/l1_loss_native.h:
 
-/home/dd/libtorch/include/ATen/ops/addr.h:
+/home/dd/libtorch/include/ATen/ops/erfc_native.h:
 
-/home/dd/libtorch/include/ATen/core/dynamic_type.h:
+/home/dd/libtorch/include/ATen/ops/to_mkldnn_backward.h:
 
-/home/dd/libtorch/include/ATen/ops/sign.h:
+/home/dd/libtorch/include/ATen/ops/erfc_meta.h:
 
-/home/dd/libtorch/include/ATen/ops/cholesky_inverse_ops.h:
+/home/dd/libtorch/include/ATen/ops/lgamma_native.h:
 
-/home/dd/libtorch/include/ATen/ops/refine_names.h:
+/home/dd/libtorch/include/ATen/ops/erfc.h:
 
-/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_ops.h:
+/home/dd/libtorch/include/ATen/ops/grid_sampler_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_cudnn_rnn.h:
+/home/dd/libtorch/include/ATen/ops/erf_native.h:
 
-/home/dd/libtorch/include/ATen/ops/max_pool1d_with_indices_native.h:
+/home/dd/libtorch/include/ATen/ops/erf_meta.h:
 
-/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor.h:
+/home/dd/libtorch/include/torch/csrc/jit/frontend/parser_constants.h:
+
+/home/dd/libtorch/include/ATen/ops/unbind.h:
+
+/home/dd/libtorch/include/ATen/ops/erf.h:
+
+/home/dd/libtorch/include/ATen/ops/equal_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/nanmean_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/equal_native.h:
+
+/home/dd/libtorch/include/ATen/ops/new_empty.h:
+
+/home/dd/libtorch/include/ATen/ops/index_fill_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/equal.h:
+
+/home/dd/libtorch/include/ATen/ops/eq_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/eq.h:
+
+/home/dd/libtorch/include/ATen/ops/quantized_batch_norm_native.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_strided_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_strided_native.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_quantized_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_quantized_native.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_quantized.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_permuted_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_make_dep_token_ops.h:
 
@@ -14331,12 +14461,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_linalg_solve_ex_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/miopen_depthwise_convolution_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/fractional_max_pool2d_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear_native.h:
-
 /home/dd/libtorch/include/c10/core/InferenceMode.h:
 
 /home/dd/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch_view_ops.h:
@@ -14387,13 +14511,9 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/core/LegacyTypeDispatch.h:
 
-/home/dd/libtorch/include/ATen/ops/empty_permuted_native.h:
-
 /home/dd/libtorch/include/ATen/ops/scalar_tensor.h:
 
 /home/dd/libtorch/include/ATen/ops/arcsinh_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_indices_copy_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_index_put_impl_ops.h:
 
@@ -14645,16 +14765,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/opencv4/opencv2/dnn.hpp:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_mul_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_sparse_csr_sum.h:
-
-/home/dd/libtorch/include/ATen/ops/bilinear_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_addmm_activation_native.h:
-
-/home/dd/libtorch/include/ATen/ops/adjoint_ops.h:
-
 /home/dd/libtorch/include/ATen/ops/_foreach_maximum_native.h:
 
 /home/dd/libtorch/include/torch/csrc/jit/frontend/function_schema_parser.h:
@@ -14672,10 +14782,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/initializer_list:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_log_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_native.h:
-
-/home/dd/libtorch/include/ATen/ops/col_indices_copy.h:
 
 /home/dd/libtorch/include/c10/core/Event.h:
 
@@ -14756,14 +14862,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/linalg_lu_factor_ex.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_acos_native.h:
-
-/usr/include/stdlib.h:
-
-/home/dd/libtorch/include/ATen/ops/tanh_backward.h:
-
-/home/dd/libtorch/include/ATen/ops/_softmax.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_abs.h:
 
 /home/dd/libtorch/include/ATen/ops/linalg_matrix_norm_native.h:
 
@@ -15019,8 +15117,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_cufft_clear_plan_cache.h:
 
-/home/dd/libtorch/include/ATen/ops/eq.h:
-
 /home/dd/libtorch/include/ATen/ops/put.h:
 
 /home/dd/libtorch/include/ATen/ops/_cudnn_rnn_ops.h:
@@ -15049,13 +15145,19 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/SavedTensorHooks.h:
 
+/home/dd/libtorch/include/ATen/ops/_cudnn_rnn.h:
+
+/home/dd/libtorch/include/ATen/ops/refine_names.h:
+
+/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_ops.h:
+
 /home/dd/libtorch/include/ATen/ops/item_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_cudnn_ctc_loss_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_make_dual_copy_ops.h:
-
 /home/dd/libtorch/include/ATen/DeviceGuard.h:
+
+/home/dd/libtorch/include/ATen/ops/_make_dual_copy_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_ctc_loss_ops.h:
 
@@ -15129,13 +15231,7 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_convolution_mode_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_masked_softmax_backward.h:
-
-/usr/include/opencv4/opencv2/core/cuda.inl.hpp:
-
 /home/dd/libtorch/include/ATen/ops/_convolution_mode.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_sinh_ops.h:
 
 /usr/include/c++/14.1.1/bits/regex_automaton.tcc:
 
@@ -15209,8 +15305,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_conj_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/_conj_native.h:
-
 /home/dd/libtorch/include/ATen/ops/float_power.h:
 
 /home/dd/libtorch/include/ATen/ops/_conj_copy_ops.h:
@@ -15252,8 +15346,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/nll_loss_nd_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_coalesce_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_batch_norm_with_update_native.h:
 
 /home/dd/libtorch/include/ATen/ops/rnn_relu_ops.h:
 
@@ -15310,6 +15402,10 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_euclidean_dist_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_functional_sym_constrain_range_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/eq_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_cast_Short_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_fake_quantize_learnable_per_tensor_affine_backward_ops.h:
 
@@ -15409,14 +15505,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_cast_Byte.h:
 
-/home/dd/libtorch/include/ATen/ops/special_erfinv_native.h:
-
-/home/dd/libtorch/include/ATen/ops/q_zero_point.h:
-
-/home/dd/libtorch/include/ATen/ops/hardswish_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_batch_norm_with_update_ops.h:
-
 /home/dd/libtorch/include/c10/util/Float8_e4m3fnuz-inl.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_lgamma.h:
@@ -15487,6 +15575,16 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_autocast_to_reduced_precision_ops.h:
 
+/home/dd/libtorch/include/ATen/ops/randint_like_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/mkldnn_rnn_layer.h:
+
+/home/dd/libtorch/include/ATen/ops/eq_native.h:
+
+/home/dd/libtorch/include/ATen/ops/cross_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_autocast_to_reduced_precision_native.h:
+
 /home/dd/libtorch/include/ATen/ops/_native_batch_norm_legit.h:
 
 /home/dd/libtorch/include/ATen/ops/polygamma_ops.h:
@@ -15539,27 +15637,9 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_nested_select_backward_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_addcdiv_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_sub_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/conv_depthwise3d_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/set_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/miopen_rnn_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_assert_scalar.h:
-
 /home/dd/libtorch/include/ATen/ops/lt_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_amp_update_scale_native.h:
-
-/home/dd/libtorch/include/torch/csrc/jit/frontend/parser_constants.h:
-
-/home/dd/libtorch/include/ATen/ops/unbind.h:
-
-/home/dd/libtorch/include/ATen/ops/erf.h:
 
 /home/dd/libtorch/include/ATen/ops/_functional_assert_scalar_ops.h:
 
@@ -15583,69 +15663,109 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_add_relu_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/special_expit_native.h:
+/home/dd/libtorch/include/ATen/ops/_add_batch_dim.h:
 
-/home/dd/libtorch/include/ATen/ops/put_ops.h:
+/home/dd/libtorch/include/ATen/ops/_convert_indices_from_csr_to_coo_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_masked_softmax_backward_native.h:
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_native.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+/home/dd/libtorch/include/ATen/ops/as_strided_native.h:
 
-/home/dd/libtorch/include/ATen/ops/gather_backward.h:
+/home/dd/libtorch/include/ATen/ops/miopen_convolution_ops.h:
 
-/home/dd/libtorch/include/ATen/core/type_factory.h:
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_backward.h:
 
-/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact3d_ops.h:
+/home/dd/libtorch/include/ATen/ops/nll_loss2d_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/special_chebyshev_polynomial_w_native.h:
+/home/dd/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch_view.h:
 
-/home/dd/libtorch/include/ATen/ops/_logcumsumexp.h:
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d_native.h:
 
-/home/dd/libtorch/include/ATen/ops/q_scale.h:
+/home/dd/libtorch/include/ATen/ops/_foreach_minimum.h:
 
-/home/dd/libtorch/include/ATen/ops/as_strided_copy.h:
+/home/dd/libtorch/include/ATen/ops/narrow_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/nan_to_num_native.h:
+/home/dd/libtorch/include/ATen/ops/_foreach_lgamma_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_sqrt.h:
+/home/dd/libtorch/include/ATen/ops/ge_meta.h:
 
-/usr/include/bits/types/time_t.h:
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d_backward.h:
 
-/home/dd/libtorch/include/ATen/ops/fmod_meta.h:
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d.h:
 
-/home/dd/libtorch/include/ATen/Context.h:
+/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact1d_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/_mkldnn_reshape.h:
+/home/dd/libtorch/include/ATen/detail/MAIAHooksInterface.h:
 
-/home/dd/libtorch/include/ATen/ops/linalg_lu_factor_ops.h:
+/home/dd/libtorch/include/ATen/detail/IPUHooksInterface.h:
 
-/home/dd/libtorch/include/ATen/ops/index_ops.h:
+/usr/include/c++/14.1.1/set:
 
-/home/dd/libtorch/include/ATen/ops/detach_native.h:
+/home/dd/libtorch/include/ATen/ops/_foreach_erfc_ops.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+/home/dd/libtorch/include/torch/csrc/jit/api/module.h:
 
-/home/dd/libtorch/include/ATen/DeviceAccelerator.h:
+/home/dd/libtorch/include/ATen/ops/asinh_meta.h:
 
-/home/dd/libtorch/include/ATen/ops/threshold.h:
+/home/dd/libtorch/include/ATen/ops/special_sinc_native.h:
 
-/home/dd/libtorch/include/ATen/ops/sign_ops.h:
+/home/dd/libtorch/include/ATen/detail/HIPHooksInterface.h:
 
-/usr/include/c++/14.1.1/utility:
+/home/dd/libtorch/include/ATen/ops/special_gammaincc_ops.h:
 
-/home/dd/libtorch/include/ATen/core/ATen_fwd.h:
+/home/dd/libtorch/include/ATen/ops/_cummax_helper_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/reciprocal_native.h:
+/home/dd/libtorch/include/ATen/ops/adaptive_max_pool2d_ops.h:
 
-/home/dd/libtorch/include/ATen/Formatting.h:
+/usr/include/stdlib.h:
 
-/home/dd/libtorch/include/ATen/ops/retains_grad_native.h:
+/home/dd/libtorch/include/ATen/ops/tanh_backward.h:
 
-/usr/include/opencv4/opencv2/objdetect/barcode.hpp:
+/home/dd/libtorch/include/ATen/ops/_softmax.h:
 
-/usr/include/c++/14.1.1/bits/streambuf_iterator.h:
+/home/dd/libtorch/include/ATen/ops/_foreach_abs.h:
+
+/home/dd/libtorch/include/ATen/ops/linalg_inv.h:
+
+/usr/include/c++/14.1.1/tr1/gamma.tcc:
+
+/home/dd/libtorch/include/ATen/ops/_embedding_bag_per_sample_weights_backward_native.h:
+
+/home/dd/libtorch/include/c10/util/bits.h:
+
+/home/dd/libtorch/include/ATen/ops/_cufft_get_plan_cache_max_size.h:
+
+/home/dd/libtorch/include/ATen/ops/round_meta.h:
+
+/usr/include/opencv4/opencv2/core/traits.hpp:
+
+/home/dd/libtorch/include/ATen/TensorGeometry.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_addcdiv_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_sub_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/conv_depthwise3d_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/set_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/miopen_rnn_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_assert_scalar.h:
+
+/usr/include/c++/14.1.1/tr1/bessel_function.tcc:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_mul_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_sparse_csr_sum.h:
+
+/home/dd/libtorch/include/ATen/ops/bilinear_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_addmm_activation_native.h:
+
+/home/dd/libtorch/include/ATen/ops/adjoint_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/std_mean_ops.h:
 
@@ -15659,33 +15779,45 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/embedding_backward.h:
 
+/home/dd/libtorch/include/ATen/ops/special_erfinv_native.h:
+
+/home/dd/libtorch/include/ATen/ops/q_zero_point.h:
+
+/home/dd/libtorch/include/ATen/ops/hardswish_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_batch_norm_with_update_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/pow_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/mul_meta.h:
+
+/usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
+
+/usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h:
+
+/usr/include/opencv4/opencv2/flann/miniflann.hpp:
+
+/home/dd/libtorch/include/ATen/ops/logspace.h:
+
+/home/dd/libtorch/include/ATen/ops/_pin_memory_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/conj_native.h:
+
 /usr/include/c++/14.1.1/new:
-
-/home/dd/libtorch/include/ATen/ops/upsample_bicubic2d_backward_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_linalg_slogdet_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_clamp_max_native.h:
-
-/home/dd/libtorch/include/ATen/ops/mean_native.h:
-
-/home/dd/libtorch/include/ATen/ops/addcdiv_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_to_sparse_csc_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/set_data_native.h:
-
-/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
-
-/home/dd/libtorch/include/ATen/ops/_has_compatible_shallow_copy_type.h:
-
-/home/dd/libtorch/include/ATen/ops/elu_backward_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/_test_check_tensor.h:
 
 /home/dd/libtorch/include/ATen/ops/prelu_native.h:
 
 /usr/include/c++/14.1.1/memory:
+
+/home/dd/libtorch/include/ATen/ops/_conj_native.h:
+
+/usr/include/c++/14.1.1/tr1/beta_function.tcc:
+
+/home/dd/libtorch/include/ATen/ops/mkldnn_linear.h:
+
+/home/dd/libtorch/include/ATen/ops/fake_quantize_per_channel_affine_cachemask_backward_native.h:
+
+/usr/include/pthread.h:
 
 /home/dd/libtorch/include/c10/util/accumulate.h:
 
@@ -15700,16 +15832,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/logaddexp2_meta.h:
 
 /home/dd/libtorch/include/ATen/ops/add_meta.h:
-
-/usr/include/c++/14.1.1/type_traits:
-
-/home/dd/libtorch/include/ATen/ops/_sobol_engine_scramble.h:
-
-/home/dd/libtorch/include/ATen/ops/align_to.h:
-
-/home/dd/libtorch/include/ATen/ops/cudnn_convolution_relu_native.h:
-
-/usr/include/c++/14.1.1/list:
 
 /usr/include/c++/14.1.1/istream:
 
@@ -15755,10 +15877,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/c++/14.1.1/ext/concurrence.h:
 
-/usr/include/c++/14.1.1/set:
-
-/home/dd/libtorch/include/ATen/detail/IPUHooksInterface.h:
-
 /home/dd/libtorch/include/ATen/ops/unflatten_ops.h:
 
 /usr/include/c++/14.1.1/ostream:
@@ -15784,6 +15902,10 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/debug/assertions.h:
 
 /home/dd/libtorch/include/ATen/ops/_indices_copy_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/real_native.h:
+
+/usr/include/c++/14.1.1/bits/uses_allocator_args.h:
 
 /home/dd/libtorch/include/ATen/ops/_upsample_bilinear2d_aa_backward_ops.h:
 
@@ -15814,14 +15936,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_sparse_mask_projection_ops.h:
 
 /usr/include/opencv4/opencv2/flann/defines.h:
-
-/usr/include/opencv4/opencv2/flann/miniflann.hpp:
-
-/home/dd/libtorch/include/ATen/ops/logspace.h:
-
-/home/dd/libtorch/include/ATen/ops/_pin_memory_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/conj_native.h:
 
 /home/dd/libtorch/include/ATen/ops/max.h:
 
@@ -15881,15 +15995,13 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_sparse_csr_sum_ops.h:
 
+/usr/include/c++/14.1.1/bits/string_view.tcc:
+
+/home/dd/libtorch/include/ATen/detail/MTIAHooksInterface.h:
+
+/usr/include/sys/cdefs.h:
+
 /usr/include/c++/14.1.1/bits/charconv.h:
-
-/home/dd/libtorch/include/torch/csrc/jit/api/object.h:
-
-/home/dd/libtorch/include/ATen/ops/row_indices_ops.h:
-
-/home/dd/libtorch/include/ATen/TensorOperators.h:
-
-/home/dd/libtorch/include/ATen/Tensor.h:
 
 /home/dd/libtorch/include/ATen/ops/trapezoid.h:
 
@@ -15922,10 +16034,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/isneginf.h:
 
 /usr/include/c++/14.1.1/bits/invoke.h:
-
-/home/dd/libtorch/include/ATen/ops/_embedding_bag_forward_only_native.h:
-
-/home/dd/libtorch/include/ATen/ops/argsort_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/as_strided.h:
 
@@ -15989,6 +16097,14 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/c++/14.1.1/deque:
 
+/usr/include/c++/14.1.1/pstl/execution_defs.h:
+
+/usr/include/c++/14.1.1/condition_variable:
+
+/home/dd/libtorch/include/ATen/ops/_standard_gamma.h:
+
+/usr/include/c++/14.1.1/bits/stringfwd.h:
+
 /home/dd/libtorch/include/ATen/ops/quantized_max_pool2d_native.h:
 
 /usr/include/c++/14.1.1/bits/unique_ptr.h:
@@ -15997,31 +16113,21 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/angle_native.h:
 
-/home/dd/libtorch/include/ATen/ops/segment_reduce.h:
+/home/dd/libtorch/include/ATen/ops/_unique_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_log10.h:
-
-/home/dd/libtorch/include/ATen/ops/histogramdd_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_cos.h:
-
-/home/dd/libtorch/include/ATen/ops/_stack_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/reflection_pad2d_native.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/float.h:
-
-/home/dd/libtorch/include/ATen/ops/hinge_embedding_loss.h:
-
-/home/dd/libtorch/include/ATen/ops/_autocast_to_full_precision_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool1d_native.h:
+/usr/include/c++/14.1.1/bits/stl_heap.h:
 
 /home/dd/libtorch/include/ATen/ops/istft_native.h:
 
 /home/dd/libtorch/include/ATen/ops/bitwise_and.h:
 
 /home/dd/libtorch/include/ATen/core/qualified_name.h:
+
+/usr/include/c++/14.1.1/bits/streambuf_iterator.h:
+
+/home/dd/libtorch/include/ATen/ops/retains_grad_native.h:
+
+/usr/include/opencv4/opencv2/objdetect/barcode.hpp:
 
 /usr/include/c++/14.1.1/bits/stl_bvector.h:
 
@@ -16032,12 +16138,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/bits/codecvt.h:
 
 /home/dd/libtorch/include/ATen/ops/adaptive_avg_pool1d_ops.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/home/dd/libtorch/include/ATen/ops/_scaled_mm_native.h:
-
-/home/dd/libtorch/include/ATen/ops/concat.h:
 
 /home/dd/libtorch/include/ATen/ops/_indices_copy.h:
 
@@ -16079,6 +16179,8 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_efficient_attention_forward_ops.h:
 
+/usr/include/c++/14.1.1/bits/node_handle.h:
+
 /usr/include/c++/14.1.1/bits/shared_ptr_base.h:
 
 /usr/include/bits/types/sigset_t.h:
@@ -16087,9 +16189,23 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/arctanh_ops.h:
 
+/home/dd/libtorch/include/ATen/ops/_indices_copy_native.h:
+
+/home/dd/libtorch/include/ATen/ops/view_native.h:
+
+/usr/include/c++/14.1.1/tr1/poly_hermite.tcc:
+
 /home/dd/libtorch/include/ATen/ops/fractional_max_pool2d_backward_meta.h:
 
 /usr/include/opencv4/opencv2/core/cuda.hpp:
+
+/home/dd/libtorch/include/ATen/ops/logical_and_native.h:
+
+/usr/include/c++/14.1.1/string_view:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/mm_malloc.h:
+
+/usr/include/opencv4/opencv2/core/matx.hpp:
 
 /home/dd/libtorch/include/ATen/ops/matmul_backward_ops.h:
 
@@ -16139,6 +16255,12 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_sparse_sum_ops.h:
 
+/home/dd/libtorch/include/ATen/ops/fbgemm_linear_int8_weight_ops.h:
+
+/usr/include/c++/14.1.1/tr1/exp_integral.tcc:
+
+/home/dd/libtorch/include/ATen/ops/cudnn_batch_norm_native.h:
+
 /usr/include/c++/14.1.1/bits/utility.h:
 
 /usr/include/c++/14.1.1/bits/parse_numbers.h:
@@ -16163,21 +16285,27 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_foreach_erf_native.h:
 
-/usr/include/c++/14.1.1/bits/new_allocator.h:
-
 /usr/include/c++/14.1.1/bits/nested_exception.h:
 
 /home/dd/libtorch/include/ATen/ops/detach_copy_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_pad_packed_sequence_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_unique_ops.h:
+/home/dd/libtorch/include/ATen/ops/nonzero.h:
 
-/usr/include/c++/14.1.1/bits/stl_heap.h:
+/home/dd/libtorch/include/ATen/ops/_fused_adam.h:
 
-/home/dd/libtorch/include/ATen/ops/silu.h:
+/home/dd/libtorch/include/ATen/detail/AcceleratorHooksInterface.h:
 
-/usr/include/opencv4/opencv2/core/optim.hpp:
+/home/dd/libtorch/include/ATen/FuncTorchTLS.h:
+
+/usr/include/c++/14.1.1/ext/numeric_traits.h:
+
+/home/dd/libtorch/include/ATen/ops/rnn_tanh_cell.h:
+
+/usr/include/c++/14.1.1/bits/memoryfwd.h:
+
+/home/dd/libtorch/include/ATen/ops/_pdist_backward_native.h:
 
 /home/dd/libtorch/include/ATen/ops/max_pool2d_with_indices_backward.h:
 
@@ -16201,27 +16329,11 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_fused_sdp_choice_native.h:
 
-/home/dd/libtorch/include/ATen/detail/MAIAHooksInterface.h:
-
 /home/dd/libtorch/include/ATen/ops/special_bessel_j1_meta.h:
 
 /home/dd/libtorch/include/ATen/ops/fft_ifftshift.h:
 
 /home/dd/libtorch/include/ATen/ops/_padded_dense_to_jagged_forward.h:
-
-/home/dd/libtorch/include/ATen/ops/miopen_convolution_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_backward.h:
-
-/usr/include/c++/14.1.1/condition_variable:
-
-/usr/include/c++/14.1.1/bits/stringfwd.h:
-
-/home/dd/libtorch/include/ATen/ops/_standard_gamma.h:
-
-/home/dd/libtorch/include/ATen/ops/nll_loss2d_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch_view.h:
 
 /home/dd/libtorch/include/ATen/ops/to_sparse_csr_ops.h:
 
@@ -16230,8 +16342,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/bits/stdint-uintn.h:
 
 /usr/include/asm/errno.h:
-
-/home/dd/libtorch/include/ATen/ops/equal_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/gru.h:
 
@@ -16283,9 +16393,9 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/TensorIterator.h:
 
-/home/dd/libtorch/include/ATen/ops/_cast_Short_native.h:
+/usr/include/c++/14.1.1/bits/new_allocator.h:
 
-/home/dd/libtorch/include/ATen/ops/eq_ops.h:
+/usr/include/c++/14.1.1/tr1/legendre_function.tcc:
 
 /usr/include/c++/14.1.1/ratio:
 
@@ -16306,50 +16416,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/pad_sequence.h:
 
 /usr/include/opencv4/opencv2/flann/all_indices.h:
-
-/home/dd/libtorch/include/ATen/ops/meshgrid.h:
-
-/home/dd/libtorch/include/ATen/ops/expm1_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_atan_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_erf.h:
-
-/home/dd/libtorch/include/ATen/ops/_histogramdd_bin_edges_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_weight_norm_interface_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/celu.h:
-
-/home/dd/libtorch/include/ATen/ops/vsplit_native.h:
-
-/home/dd/libtorch/include/ATen/ops/fft_fftshift_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_fw_primal_ops.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/home/dd/libtorch/include/ATen/ops/fft_ifft_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_dimI_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_test_warn_in_autograd.h:
-
-/home/dd/libtorch/include/ATen/ops/frac_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/_validate_sparse_csr_tensor_args.h:
-
-/home/dd/libtorch/include/ATen/ops/special_bessel_y1.h:
-
-/home/dd/libtorch/include/ATen/ops/replication_pad2d.h:
-
-/home/dd/libtorch/include/ATen/ops/_fused_moving_avg_obs_fq_helper.h:
-
-/usr/include/c++/14.1.1/bits/cow_string.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/home/dd/libtorch/include/ATen/ops/cholesky_inverse.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_clamp_max_ops.h:
 
@@ -16383,25 +16449,7 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_thnn_differentiable_lstm_cell_backward_native.h:
 
-/home/dd/libtorch/include/ATen/ops/feature_dropout_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_is_any_true.h:
-
-/home/dd/libtorch/include/torch/csrc/autograd/variable_info.h:
-
-/home/dd/libtorch/include/ATen/ops/copy.h:
-
-/home/dd/libtorch/include/ATen/ops/glu_jvp_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_grid_sampler_2d_cpu_fallback_backward_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/triplet_margin_loss_native.h:
-
-/home/dd/libtorch/include/ATen/ops/miopen_convolution_transpose_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_log1p_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_validate_sparse_compressed_tensor_args_ops.h:
+/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool2d_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/slice.h:
 
@@ -16430,16 +16478,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_cast_Short.h:
 
 /home/dd/libtorch/include/ATen/core/Range.h:
-
-/home/dd/libtorch/include/ATen/FuncTorchTLS.h:
-
-/usr/include/c++/14.1.1/ext/numeric_traits.h:
-
-/home/dd/libtorch/include/ATen/ops/nonzero.h:
-
-/home/dd/libtorch/include/ATen/ops/_fused_adam.h:
-
-/home/dd/libtorch/include/ATen/detail/AcceleratorHooksInterface.h:
 
 /home/dd/libtorch/include/ATen/ops/_convert_weight_to_int4pack_ops.h:
 
@@ -16474,6 +16512,44 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/bits/math-vector.h:
 
 /home/dd/libtorch/include/ATen/ThreadLocalPythonObjects.h:
+
+/home/dd/libtorch/include/ATen/ops/upsample_bicubic2d_backward_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_linalg_slogdet_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_clamp_max_native.h:
+
+/home/dd/libtorch/include/ATen/ops/mean_native.h:
+
+/home/dd/libtorch/include/ATen/ops/addcdiv_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_to_sparse_csc_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/segment_reduce.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_log10.h:
+
+/usr/include/c++/14.1.1/tr1/ell_integral.tcc:
+
+/home/dd/libtorch/include/ATen/ops/set_data_native.h:
+
+/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
+
+/home/dd/libtorch/include/ATen/ops/_has_compatible_shallow_copy_type.h:
+
+/home/dd/libtorch/include/ATen/ops/elu_backward_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/_test_check_tensor.h:
+
+/home/dd/libtorch/include/ATen/ops/argsort_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_embedding_bag_forward_only_native.h:
+
+/home/dd/libtorch/include/ATen/ops/hinge_embedding_loss.h:
+
+/home/dd/libtorch/include/ATen/ops/_autocast_to_full_precision_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool1d_native.h:
 
 /home/dd/libtorch/include/ATen/ops/poisson_ops.h:
 
@@ -16561,19 +16637,35 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/libintl.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_tan_native.h:
+/home/dd/libtorch/include/ATen/ops/special_chebyshev_polynomial_w_native.h:
 
-/home/dd/libtorch/include/ATen/ops/is_set_to.h:
+/home/dd/libtorch/include/ATen/ops/_logcumsumexp.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+/home/dd/libtorch/include/ATen/ops/q_scale.h:
+
+/home/dd/libtorch/include/ATen/ops/as_strided_copy.h:
+
+/home/dd/libtorch/include/ATen/ops/nan_to_num_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_sqrt.h:
+
+/usr/include/bits/types/time_t.h:
+
+/home/dd/libtorch/include/ATen/ops/fmod_meta.h:
+
+/home/dd/libtorch/include/ATen/Context.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/home/dd/libtorch/include/ATen/ops/gather_backward.h:
+
+/home/dd/libtorch/include/ATen/core/type_factory.h:
+
+/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact3d_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_add_relu_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_abs_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_sparse_compressed_tensor_unsafe.h:
-
-/usr/include/bits/stdint-intn.h:
 
 /home/dd/libtorch/include/ATen/ops/_validate_sparse_bsc_tensor_args.h:
 
@@ -16595,11 +16687,17 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact1d_backward_meta.h:
 
+/home/dd/libtorch/include/ATen/ops/_validate_sparse_coo_tensor_args.h:
+
+/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool3d_backward.h:
+
 /home/dd/libtorch/include/ATen/ops/mkldnn_linear_backward_weights.h:
 
 /home/dd/libtorch/include/ATen/ops/column_stack_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/cumprod_ops.h:
+
+/usr/include/c++/14.1.1/pstl/pstl_config.h:
 
 /home/dd/libtorch/include/ATen/ops/_embedding_bag_ops.h:
 
@@ -16618,18 +16716,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/asin_ops.h:
 
 /usr/include/c++/14.1.1/queue:
-
-/home/dd/libtorch/include/ATen/ops/special_i1e_native.h:
-
-/home/dd/libtorch/include/ATen/ops/reflection_pad3d_native.h:
-
-/home/dd/libtorch/include/ATen/ops/mkldnn_linear_backward_weights_native.h:
-
-/home/dd/libtorch/include/ATen/ops/logit_backward_native.h:
-
-/usr/include/c++/14.1.1/tuple:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_addcdiv_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/nextafter_meta.h:
 
@@ -16668,6 +16754,22 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/ext/aligned_buffer.h:
 
 /home/dd/libtorch/include/ATen/WrapDimUtils.h:
+
+/usr/include/c++/14.1.1/bits/memory_resource.h:
+
+/home/dd/libtorch/include/ATen/ops/special_gammaln_native.h:
+
+/home/dd/libtorch/include/ATen/ops/all_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/mse_loss_backward_native.h:
+
+/home/dd/libtorch/include/ATen/ops/digamma_native.h:
+
+/home/dd/libtorch/include/ATen/ops/div_native.h:
+
+/home/dd/libtorch/include/ATen/ops/crow_indices_native.h:
+
+/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/c++/14.1.1/bits/cxxabi_init_exception.h:
 
@@ -16745,6 +16847,10 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_ops.h:
+
+/usr/include/c++/14.1.1/bits/stl_multimap.h:
+
 /usr/include/opencv4/opencv2/flann/kmeans_index.h:
 
 /home/dd/libtorch/include/ATen/ops/fft_ifft_ops.h:
@@ -16752,24 +16858,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/bits/streambuf.tcc:
 
 /usr/include/c++/14.1.1/bits/functexcept.h:
-
-/home/dd/libtorch/include/ATen/ops/_make_dual_native.h:
-
-/home/dd/libtorch/include/c10/util/Backtrace.h:
-
-/home/dd/libtorch/include/ATen/ops/_pad_enum.h:
-
-/usr/include/endian.h:
-
-/home/dd/libtorch/include/ATen/ops/masked_select.h:
-
-/home/dd/libtorch/include/ATen/ops/masked_fill_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_sparse_log_softmax_backward_data_native.h:
-
-/home/dd/libtorch/include/ATen/ops/linalg_solve_ex.h:
-
-/home/dd/libtorch/include/ATen/ops/addcdiv_meta.h:
 
 /home/dd/libtorch/include/ATen/ops/_copy_from_and_resize_native.h:
 
@@ -16780,6 +16868,12 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/bits/long-double.h:
 
 /home/dd/libtorch/include/ATen/detail/PrivateUse1HooksInterface.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/home/dd/libtorch/include/ATen/ops/_scaled_mm_native.h:
+
+/home/dd/libtorch/include/ATen/ops/concat.h:
 
 /home/dd/libtorch/include/ATen/ops/_convert_indices_from_coo_to_csr_meta.h:
 
@@ -16804,12 +16898,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/core/Dict_inl.h:
 
 /home/dd/libtorch/include/ATen/ops/_nested_compute_contiguous_strides_offsets_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_convert_indices_from_csr_to_coo_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_native.h:
-
-/home/dd/libtorch/include/ATen/ops/as_strided_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_fused_adamw_ops.h:
 
@@ -16881,21 +16969,17 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_sparse_semi_structured_mm.h:
 
-/home/dd/libtorch/include/ATen/ops/crow_indices_native.h:
+/home/dd/libtorch/include/ATen/ops/linalg_lu_factor_ops.h:
 
-/usr/include/bits/types/mbstate_t.h:
+/home/dd/libtorch/include/ATen/ops/index_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/detach_native.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/messages_members.h:
 
 /home/dd/libtorch/include/ATen/ops/requires_grad_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_tan.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_erfc_ops.h:
-
-/home/dd/libtorch/include/torch/csrc/jit/api/module.h:
-
-/home/dd/libtorch/include/ATen/ops/asinh_meta.h:
 
 /usr/include/c++/14.1.1/bits/exception_defines.h:
 
@@ -16937,6 +17021,14 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_to_sparse_semi_structured_native.h:
 
+/usr/include/c++/14.1.1/ext/type_traits.h:
+
+/home/dd/libtorch/include/ATen/ops/linalg_matrix_exp_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/hardtanh_backward_ops.h:
+
+/usr/include/bits/waitflags.h:
+
 /usr/include/c++/14.1.1/bits/basic_string.h:
 
 /home/dd/libtorch/include/ATen/ops/_neg_view_copy_native.h:
@@ -16952,6 +17044,42 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/logspace_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/atanh_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/multiply_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_fused_adamw_native.h:
+
+/home/dd/libtorch/include/ATen/ops/adaptive_max_pool3d.h:
+
+/home/dd/libtorch/include/ATen/ops/miopen_convolution_relu_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_clamp_min_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/triu_indices_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/quantize_per_channel_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_mps_convolution_transpose_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/matmul_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_assert_async.h:
+
+/home/dd/libtorch/include/ATen/ops/batch_norm_gather_stats_native.h:
+
+/home/dd/libtorch/include/ATen/ops/to_mkldnn_backward_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/cumprod_backward.h:
+
+/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_backward_native.h:
+
+/home/dd/libtorch/include/ATen/ops/hypot_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_sparse_bsr_tensor_unsafe.h:
+
+/home/dd/libtorch/include/ATen/ops/avg_pool2d_backward_native.h:
+
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/uintn-identity.h:
 
@@ -16991,8 +17119,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/bits/wctype-wchar.h:
 
-/usr/include/c++/14.1.1/ext/type_traits.h:
-
 /home/dd/libtorch/include/ATen/ops/linalg_det_native.h:
 
 /usr/include/c++/14.1.1/bits/ptr_traits.h:
@@ -17007,15 +17133,13 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/c++/14.1.1/exception:
 
-/home/dd/libtorch/include/ATen/ops/mkldnn_linear.h:
-
-/home/dd/libtorch/include/ATen/ops/fake_quantize_per_channel_affine_cachemask_backward_native.h:
-
-/usr/include/pthread.h:
-
 /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/14.1.1/bits/alloc_traits.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
+
+/home/dd/libtorch/include/ATen/core/boxing/KernelFunction.h:
 
 /home/dd/libtorch/include/ATen/ops/_linalg_eigvals_native.h:
 
@@ -17065,19 +17189,31 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/bits/types/__mbstate_t.h:
 
+/home/dd/libtorch/include/ATen/ops/feature_dropout_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_is_any_true.h:
+
+/home/dd/libtorch/include/torch/csrc/autograd/variable_info.h:
+
+/home/dd/libtorch/include/ATen/ops/copy.h:
+
+/home/dd/libtorch/include/ATen/ops/glu_jvp_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_grid_sampler_2d_cpu_fallback_backward_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/triplet_margin_loss_native.h:
+
+/home/dd/libtorch/include/ATen/ops/miopen_convolution_transpose_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_log1p_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_validate_sparse_compressed_tensor_args_ops.h:
+
 /home/dd/libtorch/include/ATen/core/VariableHooksInterface.h:
 
 /home/dd/libtorch/include/ATen/ops/_amp_update_scale_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/alias_copy_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/linspace_native.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/home/dd/libtorch/include/ATen/NamedTensor.h:
-
-/home/dd/libtorch/include/ATen/TensorUtils.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_expm1_ops.h:
 
@@ -17175,10 +17311,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_upsample_bicubic2d_aa_backward_meta.h:
 
-/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_nnpack_spatial_convolution_native.h:
-
 /home/dd/libtorch/include/ATen/ops/fractional_max_pool3d_backward.h:
 
 /home/dd/libtorch/include/ATen/ops/_local_scalar_dense.h:
@@ -17202,14 +17334,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_slow_conv2d_backward_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_test_optional_intlist_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/sinc_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/logsumexp.h:
-
-/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor.h:
-
-/usr/include/c++/14.1.1/bits/stl_relops.h:
 
 /home/dd/libtorch/include/ATen/ops/leaky_relu_ops.h:
 
@@ -17256,10 +17380,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/torch/csrc/jit/serialization/import.h:
 
 /usr/include/opencv4/opencv2/features2d.hpp:
-
-/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear.h:
-
-/usr/include/c++/14.1.1/cctype:
 
 /home/dd/libtorch/include/ATen/ops/native_norm_native.h:
 
@@ -17345,7 +17465,141 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/conv1d.h:
 
+/home/dd/libtorch/include/ATen/ops/_batch_norm_with_update_native.h:
+
+/usr/include/c++/14.1.1/tr1/poly_laguerre.tcc:
+
+/home/dd/libtorch/include/ATen/ops/complex.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_sinh_ops.h:
+
+/usr/include/c++/14.1.1/tr1/special_function_util.h:
+
+/home/dd/libtorch/include/ATen/ops/special_i1e_native.h:
+
+/home/dd/libtorch/include/ATen/ops/reflection_pad3d_native.h:
+
+/home/dd/libtorch/include/ATen/ops/mkldnn_linear_backward_weights_native.h:
+
+/home/dd/libtorch/include/ATen/ops/logit_backward_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_addcdiv_ops.h:
+
+/usr/include/c++/14.1.1/tuple:
+
+/home/dd/libtorch/include/ATen/ops/histogramdd_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_cos.h:
+
+/home/dd/libtorch/include/ATen/ops/_stack_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/reflection_pad2d_native.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/float.h:
+
+/usr/include/c++/14.1.1/list:
+
+/usr/include/c++/14.1.1/type_traits:
+
+/home/dd/libtorch/include/ATen/ops/_sobol_engine_scramble.h:
+
+/home/dd/libtorch/include/ATen/ops/align_to.h:
+
+/home/dd/libtorch/include/ATen/ops/cudnn_convolution_relu_native.h:
+
+/home/dd/libtorch/include/ATen/core/ATen_fwd.h:
+
+/home/dd/libtorch/include/ATen/ops/reciprocal_native.h:
+
+/home/dd/libtorch/include/ATen/Formatting.h:
+
+/home/dd/libtorch/include/ATen/ops/threshold.h:
+
+/home/dd/libtorch/include/ATen/ops/sign_ops.h:
+
+/usr/include/c++/14.1.1/utility:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/home/dd/libtorch/include/ATen/DeviceAccelerator.h:
+
+/home/dd/libtorch/include/ATen/Tensor.h:
+
+/home/dd/libtorch/include/torch/csrc/jit/api/object.h:
+
+/home/dd/libtorch/include/ATen/ops/row_indices_ops.h:
+
+/home/dd/libtorch/include/ATen/TensorOperators.h:
+
+/home/dd/libtorch/include/ATen/ops/meshgrid.h:
+
+/home/dd/libtorch/include/ATen/ops/expm1_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_atan_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_erf.h:
+
+/home/dd/libtorch/include/ATen/ops/_histogramdd_bin_edges_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_weight_norm_interface_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/celu.h:
+
+/home/dd/libtorch/include/ATen/ops/vsplit_native.h:
+
+/home/dd/libtorch/include/ATen/ops/fft_fftshift_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_fw_primal_ops.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/home/dd/libtorch/include/ATen/ops/fft_ifft_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_dimI_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_test_warn_in_autograd.h:
+
+/home/dd/libtorch/include/ATen/ops/frac_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/_validate_sparse_csr_tensor_args.h:
+
+/home/dd/libtorch/include/ATen/ops/special_bessel_y1.h:
+
+/home/dd/libtorch/include/ATen/ops/replication_pad2d.h:
+
+/home/dd/libtorch/include/ATen/ops/_fused_moving_avg_obs_fq_helper.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/14.1.1/bits/cow_string.h:
+
+/home/dd/libtorch/include/ATen/ops/cholesky_inverse.h:
+
+/home/dd/libtorch/include/ATen/ops/linspace_native.h:
+
+/home/dd/libtorch/include/ATen/NamedTensor.h:
+
+/home/dd/libtorch/include/ATen/TensorUtils.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/home/dd/libtorch/include/ATen/ops/_foreach_tan_native.h:
+
+/home/dd/libtorch/include/ATen/ops/is_set_to.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/home/dd/libtorch/include/ATen/ops/tril_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/special_round.h:
+
+/home/dd/libtorch/include/ATen/ops/greater_equal.h:
+
+/home/dd/libtorch/include/ATen/ops/empty_permuted_ops.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
 
 /home/dd/libtorch/include/c10/util/TypeSafeSignMath.h:
 
@@ -17385,11 +17639,35 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_sparse_broadcast_to_native.h:
 
+/home/dd/libtorch/include/c10/util/Backtrace.h:
+
+/home/dd/libtorch/include/ATen/ops/_pad_enum.h:
+
+/usr/include/endian.h:
+
+/home/dd/libtorch/include/ATen/ops/_make_dual_native.h:
+
+/home/dd/libtorch/include/ATen/ops/masked_select.h:
+
+/home/dd/libtorch/include/ATen/ops/masked_fill_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_sparse_log_softmax_backward_data_native.h:
+
+/home/dd/libtorch/include/ATen/ops/linalg_solve_ex.h:
+
+/home/dd/libtorch/include/ATen/ops/addcdiv_meta.h:
+
 /home/dd/libtorch/include/ATen/ops/_convolution_double_backward_ops.h:
 
 /usr/include/opencv4/opencv2/photo.hpp:
 
 /home/dd/libtorch/include/ATen/ops/aminmax.h:
+
+/usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc:
+
+/home/dd/libtorch/include/ATen/ops/linalg_svdvals_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_mps_convolution_transpose_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_cslt_sparse_mm.h:
 
@@ -17435,8 +17713,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/c++/14.1.1/locale:
 
-/home/dd/libtorch/include/ATen/ops/eq_meta.h:
-
 /usr/include/strings.h:
 
 /home/dd/libtorch/include/ATen/ops/_cdist_backward.h:
@@ -17461,6 +17737,8 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/linalg_multi_dot.h:
 
+/usr/include/c++/14.1.1/tr1/riemann_zeta.tcc:
+
 /usr/include/locale.h:
 
 /usr/include/c++/14.1.1/bits/chrono.h:
@@ -17480,14 +17758,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_empty_affine_quantized_native.h:
 
 /usr/include/opencv4/opencv2/core/mat.inl.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/mm_malloc.h:
-
-/usr/include/opencv4/opencv2/core/matx.hpp:
-
-/usr/include/sys/cdefs.h:
-
-/home/dd/libtorch/include/ATen/detail/MTIAHooksInterface.h:
 
 /home/dd/libtorch/include/ATen/ops/_int_mm_ops.h:
 
@@ -17523,16 +17793,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_fake_quantize_learnable_per_channel_affine_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/special_gammaincc_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_cummax_helper_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/special_sinc_native.h:
-
-/home/dd/libtorch/include/ATen/detail/HIPHooksInterface.h:
-
-/home/dd/libtorch/include/ATen/ops/adaptive_max_pool2d_ops.h:
-
 /home/dd/libtorch/include/torch/csrc/jit/runtime/argument_spec.h:
 
 /home/dd/libtorch/include/ATen/core/UnsafeFromTH.h:
@@ -17542,14 +17802,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_scaled_dot_product_cudnn_attention_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/affine_grid_generator_native.h:
-
-/home/dd/libtorch/include/ATen/ops/round_meta.h:
-
-/usr/include/opencv4/opencv2/core/traits.hpp:
-
-/home/dd/libtorch/include/c10/util/bits.h:
-
-/home/dd/libtorch/include/ATen/ops/_cufft_get_plan_cache_max_size.h:
 
 /home/dd/libtorch/include/ATen/ops/logaddexp2_ops.h:
 
@@ -17681,47 +17933,15 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_triton_multi_head_attention.h:
 
-/home/dd/libtorch/include/ATen/ops/multiply_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_fused_adamw_native.h:
-
-/home/dd/libtorch/include/ATen/ops/adaptive_max_pool3d.h:
-
-/home/dd/libtorch/include/ATen/ops/miopen_convolution_relu_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_foreach_clamp_min_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/triu_indices_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/quantize_per_channel_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_mps_convolution_transpose_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/matmul_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_assert_async.h:
-
-/home/dd/libtorch/include/ATen/ops/batch_norm_gather_stats_native.h:
-
-/home/dd/libtorch/include/ATen/ops/to_mkldnn_backward_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/cumprod_backward.h:
-
-/usr/include/bits/floatn-common.h:
-
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_backward_native.h:
-
-/home/dd/libtorch/include/ATen/ops/hypot_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_sparse_bsr_tensor_unsafe.h:
-
-/home/dd/libtorch/include/ATen/ops/avg_pool2d_backward_native.h:
-
 /home/dd/libtorch/include/ATen/ops/sparse_bsr_tensor.h:
 
 /usr/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/home/dd/libtorch/include/ATen/ops/_linalg_solve_ex.h:
+
+/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact2d_backward.h:
 
 /home/dd/libtorch/include/ATen/core/ivalue.h:
 
@@ -17819,18 +18039,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/crow_indices_ops.h:
 
-/home/dd/libtorch/include/ATen/core/boxing/KernelFunction.h:
-
-/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
-
-/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool3d_backward.h:
-
-/home/dd/libtorch/include/ATen/ops/_validate_sparse_coo_tensor_args.h:
-
-/home/dd/libtorch/include/ATen/ops/_embedding_bag_per_sample_weights_backward_native.h:
-
-/home/dd/libtorch/include/ATen/TensorGeometry.h:
-
 /home/dd/libtorch/include/ATen/ops/resize_as.h:
 
 /home/dd/libtorch/include/ATen/ops/_convert_indices_from_csr_to_coo_meta.h:
@@ -17843,19 +18051,9 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
 
+/usr/include/c++/14.1.1/bits/specfun.h:
+
 /home/dd/libtorch/include/ATen/ops/_to_dense.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
-
-/home/dd/libtorch/include/ATen/ops/grid_sampler_3d.h:
-
-/home/dd/libtorch/include/ATen/ops/_masked_scale_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_sparse_semi_structured_addmm.h:
-
-/usr/include/c++/14.1.1/bits/stl_map.h:
-
-/home/dd/libtorch/include/ATen/ops/_masked_scale_native.h:
 
 /home/dd/libtorch/include/ATen/ops/quantize_per_tensor.h:
 
@@ -17866,8 +18064,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/c10/util/Synchronized.h:
 
 /usr/include/bits/xopen_lim.h:
-
-/home/dd/libtorch/include/ATen/ops/_make_dual_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/randn_like_ops.h:
 
@@ -17977,19 +18173,11 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_nested_tensor_strides.h:
 
-/home/dd/libtorch/include/ATen/ops/new_empty.h:
-
-/home/dd/libtorch/include/ATen/ops/index_fill_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/equal.h:
-
-/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact2d_backward.h:
-
-/home/dd/libtorch/include/ATen/ops/_linalg_solve_ex.h:
-
 /home/dd/libtorch/include/ATen/ops/searchsorted.h:
 
 /home/dd/libtorch/include/ATen/ops/_local_scalar_dense_native.h:
+
+/usr/include/c++/14.1.1/tr1/hypergeometric.tcc:
 
 /home/dd/libtorch/include/ATen/ops/_unpack_dual.h:
 
@@ -18005,10 +18193,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/diagonal_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/_masked_softmax_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/bitwise_and_meta.h:
-
 /home/dd/libtorch/include/ATen/ops/scaled_dot_product_attention_native.h:
 
 /home/dd/libtorch/include/ATen/ops/max_pool2d_with_indices.h:
@@ -18023,12 +18207,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/StorageUtils.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_log_ops.h:
-
-/usr/include/opencv4/opencv2/flann/nn_index.h:
-
-/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor_ops.h:
-
 /home/dd/libtorch/include/ATen/TracerMode.h:
 
 /home/dd/libtorch/include/ATen/ops/_aminmax_native.h:
@@ -18040,6 +18218,14 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/movedim_native.h:
 
 /home/dd/libtorch/include/ATen/Version.h:
+
+/home/dd/libtorch/include/ATen/ops/fake_quantize_per_tensor_affine_cachemask_backward.h:
+
+/home/dd/libtorch/include/ATen/ops/count_nonzero.h:
+
+/home/dd/libtorch/include/ATen/core/DeprecatedTypeProperties.h:
+
+/home/dd/libtorch/include/ATen/ops/ccol_indices_ops.h:
 
 /usr/include/c++/14.1.1/bits/std_abs.h:
 
@@ -18103,12 +18289,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/conv2d.h:
 
-/home/dd/libtorch/include/ATen/ops/linalg_matrix_exp_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/hardtanh_backward_ops.h:
-
-/usr/include/bits/waitflags.h:
-
 /home/dd/libtorch/include/ATen/ops/quantized_batch_norm_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_foreach_atan_ops.h:
@@ -18118,6 +18298,20 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_pad_packed_sequence.h:
 
 /home/dd/libtorch/include/ATen/core/dispatch/OperatorOptions.h:
+
+/home/dd/libtorch/include/ATen/core/dynamic_type.h:
+
+/home/dd/libtorch/include/ATen/ops/sinc_meta.h:
+
+/home/dd/libtorch/include/ATen/ops/logsumexp.h:
+
+/usr/include/c++/14.1.1/bits/stl_relops.h:
+
+/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor.h:
+
+/home/dd/libtorch/include/ATen/ops/sign.h:
+
+/home/dd/libtorch/include/ATen/ops/cholesky_inverse_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/logical_not_native.h:
 
@@ -18135,11 +18329,11 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/digamma_ops.h:
 
+/home/dd/libtorch/include/ATen/ops/silu.h:
+
+/usr/include/opencv4/opencv2/core/optim.hpp:
+
 /home/dd/libtorch/include/ATen/core/op_registration/infer_schema.h:
-
-/usr/include/c++/14.1.1/bits/stl_multimap.h:
-
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool3d_ops.h:
 
 /usr/include/opencv4/opencv2/imgproc.hpp:
 
@@ -18161,37 +18355,75 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/core/stack.h:
 
-/home/dd/libtorch/include/ATen/ops/rnn_tanh_cell.h:
+/home/dd/libtorch/include/ATen/ops/_make_dual_ops.h:
 
-/usr/include/c++/14.1.1/bits/memoryfwd.h:
+/home/dd/libtorch/include/ATen/ops/max_pool1d_with_indices_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_pdist_backward_native.h:
+/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor.h:
 
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d.h:
+/home/dd/libtorch/include/ATen/ops/col_indices_copy.h:
 
-/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact1d_ops.h:
+/home/dd/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_native.h:
 
-/home/dd/libtorch/include/ATen/ops/narrow_ops.h:
+/usr/include/bits/stdint-intn.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_lgamma_native.h:
+/home/dd/libtorch/include/ATen/ops/_sparse_compressed_tensor_unsafe.h:
 
-/home/dd/libtorch/include/ATen/ops/ge_meta.h:
+/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d_backward.h:
+/home/dd/libtorch/include/ATen/ops/_nnpack_spatial_convolution_native.h:
 
-/home/dd/libtorch/include/ATen/ops/_foreach_minimum.h:
+/home/dd/libtorch/include/ATen/ops/_foreach_log_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/fake_quantize_per_tensor_affine_cachemask_backward.h:
+/usr/include/opencv4/opencv2/flann/nn_index.h:
 
-/home/dd/libtorch/include/ATen/ops/count_nonzero.h:
+/home/dd/libtorch/include/ATen/ops/_make_per_tensor_quantized_tensor_ops.h:
 
-/home/dd/libtorch/include/ATen/core/DeprecatedTypeProperties.h:
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
 
-/home/dd/libtorch/include/ATen/ops/ccol_indices_ops.h:
+/home/dd/libtorch/include/ATen/ops/grid_sampler_3d.h:
 
-/home/dd/libtorch/include/ATen/ops/_adaptive_avg_pool2d_native.h:
+/usr/include/c++/14.1.1/bits/stl_map.h:
 
-/home/dd/libtorch/include/ATen/ops/_add_batch_dim.h:
+/home/dd/libtorch/include/ATen/ops/_sparse_semi_structured_addmm.h:
+
+/home/dd/libtorch/include/ATen/ops/_masked_scale_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_masked_scale_ops.h:
+
+/usr/include/opencv4/opencv2/core/cuda.inl.hpp:
+
+/home/dd/libtorch/include/ATen/ops/_masked_softmax_backward.h:
+
+/home/dd/libtorch/include/ATen/ops/special_expit_native.h:
+
+/home/dd/libtorch/include/ATen/ops/put_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_masked_softmax_backward_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_masked_softmax_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/bitwise_and_meta.h:
+
+/usr/include/c++/14.1.1/cctype:
+
+/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear.h:
+
+/home/dd/libtorch/include/ATen/ops/refine_names_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/poisson.h:
+
+/home/dd/libtorch/include/ATen/ops/addr.h:
+
+/home/dd/libtorch/include/ATen/ops/miopen_depthwise_convolution_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/fractional_max_pool2d_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_mixed_dtypes_linear_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_mkldnn_reshape.h:
 
 /home/dd/libtorch/include/ATen/ops/_mkldnn_transpose.h:
 
@@ -18220,10 +18452,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/tril_indices_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_mps_convolution_transpose.h:
-
-/home/dd/libtorch/include/ATen/ops/linalg_svdvals_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_mps_convolution_transpose_native.h:
 
 /home/dd/libtorch/include/ATen/ops/log.h:
 
@@ -18476,10 +18704,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/lu_solve_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_nested_view_from_jagged_copy_native.h:
-
-/home/dd/libtorch/include/ATen/ops/to_mkldnn_backward.h:
-
-/home/dd/libtorch/include/ATen/ops/erfc_meta.h:
 
 /home/dd/libtorch/include/ATen/ops/resolve_neg_native.h:
 
@@ -19129,6 +19353,10 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_test_check_tensor_ops.h:
 
+/home/dd/libtorch/include/ATen/ops/erf_ops.h:
+
+/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact1d_meta.h:
+
 /home/dd/libtorch/include/ATen/ops/_foreach_cosh_native.h:
 
 /home/dd/libtorch/include/ATen/ops/_test_functorch_fallback_ops.h:
@@ -19178,16 +19406,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/special_modified_bessel_i0_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/_test_warn_in_autograd_native.h:
-
-/home/dd/libtorch/include/ATen/ops/tril_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/special_round.h:
-
-/home/dd/libtorch/include/ATen/ops/greater_equal.h:
-
-/usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
-
-/home/dd/libtorch/include/ATen/ops/empty_permuted_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/view_copy.h:
 
@@ -19274,8 +19492,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/c10/core/Scalar.h:
 
 /home/dd/libtorch/include/ATen/ops/_to_sparse_bsc_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/empty_quantized_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/t.h:
 
@@ -19575,6 +19791,10 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/_version_native.h:
 
+/home/dd/libtorch/include/ATen/ops/amax_native.h:
+
+/home/dd/libtorch/include/ATen/ops/_version_ops.h:
+
 /home/dd/libtorch/include/ATen/ops/_weight_int4pack_mm.h:
 
 /home/dd/libtorch/include/ATen/ops/_weight_int4pack_mm_native.h:
@@ -19634,8 +19854,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/_propagate_xla_data.h:
 
 /home/dd/libtorch/include/ATen/ops/adaptive_avg_pool2d.h:
-
-/home/dd/libtorch/include/ATen/ops/adaptive_avg_pool2d_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/adaptive_avg_pool3d.h:
 
@@ -19789,16 +20007,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/all_native.h:
 
-/home/dd/libtorch/include/ATen/ops/special_gammaln_native.h:
-
-/home/dd/libtorch/include/ATen/ops/all_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/mse_loss_backward_native.h:
-
-/home/dd/libtorch/include/ATen/ops/digamma_native.h:
-
-/home/dd/libtorch/include/ATen/ops/div_native.h:
-
 /home/dd/libtorch/include/ATen/ops/max_unpool3d.h:
 
 /home/dd/libtorch/include/ATen/ops/allclose.h:
@@ -19812,10 +20020,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/cummax_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/alpha_dropout_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/_version_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/amax_native.h:
 
 /home/dd/libtorch/include/ATen/ops/special_scaled_modified_bessel_k0.h:
 
@@ -20445,8 +20649,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 
 /home/dd/libtorch/include/ATen/ops/combinations_ops.h:
 
-/home/dd/libtorch/include/ATen/ops/complex.h:
-
 /home/dd/libtorch/include/ATen/ops/sparse_csr_tensor_native.h:
 
 /home/dd/libtorch/include/ATen/ops/geometric_native.h:
@@ -20506,10 +20708,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/special_erfc_native.h:
 
 /home/dd/libtorch/include/ATen/ops/conv_tbc.h:
-
-/home/dd/libtorch/include/ATen/ops/_upsample_nearest_exact1d_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/erf_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/conv_tbc_backward.h:
 
@@ -20636,8 +20834,6 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /home/dd/libtorch/include/ATen/ops/cudnn_affine_grid_generator_backward_ops.h:
 
 /home/dd/libtorch/include/ATen/ops/cudnn_batch_norm_backward_native.h:
-
-/home/dd/libtorch/include/ATen/ops/cudnn_batch_norm_native.h:
 
 /home/dd/libtorch/include/ATen/ops/expand_as_ops.h:
 
@@ -20852,45 +21048,3 @@ CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cv
 /usr/include/c++/14.1.1/bits/hashtable_policy.h:
 
 /home/dd/libtorch/include/ATen/ops/empty_permuted.h:
-
-/home/dd/libtorch/include/ATen/ops/empty_quantized.h:
-
-/home/dd/libtorch/include/ATen/ops/empty_quantized_native.h:
-
-/home/dd/libtorch/include/ATen/ops/empty_strided_native.h:
-
-/home/dd/libtorch/include/ATen/ops/quantized_batch_norm_native.h:
-
-/home/dd/libtorch/include/ATen/ops/empty_strided_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/randint_like_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/mkldnn_rnn_layer.h:
-
-/home/dd/libtorch/include/ATen/ops/cross_native.h:
-
-/home/dd/libtorch/include/ATen/ops/_autocast_to_reduced_precision_native.h:
-
-/home/dd/libtorch/include/ATen/ops/eq_native.h:
-
-/home/dd/libtorch/include/ATen/ops/nanmean_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/equal_native.h:
-
-/home/dd/libtorch/include/ATen/ops/erf_meta.h:
-
-/home/dd/libtorch/include/ATen/ops/grid_sampler_native.h:
-
-/home/dd/libtorch/include/ATen/ops/erf_native.h:
-
-/home/dd/libtorch/include/ATen/ops/lgamma_native.h:
-
-/home/dd/libtorch/include/ATen/ops/erfc.h:
-
-/home/dd/libtorch/include/ATen/ops/unique_dim_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/special_i1_ops.h:
-
-/home/dd/libtorch/include/ATen/ops/l1_loss_native.h:
-
-/home/dd/libtorch/include/ATen/ops/erfc_native.h:

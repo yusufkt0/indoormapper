@@ -1,4 +1,5 @@
 #include <iostream>
+#include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
 #include "../include/CameraHandler.h"
 #include "../include/EdgeDetector.h"
