@@ -6,7 +6,7 @@ project(DepthEstimationApp)
 include_directories(/usr/include/opencv4/)
 find_package(OpenCV REQUIRED)
 
-set(CMAKE_PREFIX_PATH /home/dd/libtorch)
+set(CMAKE_PREFIX_PATH /home/dd/Downloads/libtorch/)
 find_package(Torch REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
