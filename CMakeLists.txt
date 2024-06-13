@@ -12,7 +12,7 @@ include_directories(include)
 add_executable(DepthEstimationApp src/main.cpp src/CameraHandler.cpp src/EdgeDetector.cpp src/DepthEstimator.cpp src/MapCreator.cpp)
 
 # Link OpenCV libraries
-target_link_libraries(DepthEstimationApp ${OpenCV_LIBS})
+target_link_libraries(DepthEstimationApp ${OpenCV_LIBS} ${TORCH_LIBRARIES})
 
 # Libtorch settings
 set(CMAKE_PREFIX_PATH /home/dd/libtorch)
