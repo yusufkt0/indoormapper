@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(DepthEstimationApp)
 
-set(CMAKE_CXX_STANDARD 17)
-
 # Find OpenCV package
 find_package(OpenCV REQUIRED)
 
