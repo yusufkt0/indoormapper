@@ -69,28 +69,92 @@ include CMakeFiles/DepthEstimationApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DepthEstimationApp.dir/flags.make
 
-CMakeFiles/DepthEstimationApp.dir/main.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
-CMakeFiles/DepthEstimationApp.dir/main.cpp.o: /home/dd/Documents/projects/cvmap2.1/main.cpp
-CMakeFiles/DepthEstimationApp.dir/main.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DepthEstimationApp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/main.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/main.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/main.cpp.o -c /home/dd/Documents/projects/cvmap2.1/main.cpp
+CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
+CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: /home/dd/Documents/projects/cvmap2.1/src/main.cpp
+CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o -c /home/dd/Documents/projects/cvmap2.1/src/main.cpp
 
-CMakeFiles/DepthEstimationApp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/main.cpp > CMakeFiles/DepthEstimationApp.dir/main.cpp.i
+CMakeFiles/DepthEstimationApp.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/src/main.cpp > CMakeFiles/DepthEstimationApp.dir/src/main.cpp.i
 
-CMakeFiles/DepthEstimationApp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/main.cpp -o CMakeFiles/DepthEstimationApp.dir/main.cpp.s
+CMakeFiles/DepthEstimationApp.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/src/main.cpp -o CMakeFiles/DepthEstimationApp.dir/src/main.cpp.s
+
+CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
+CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: /home/dd/Documents/projects/cvmap2.1/src/CameraHandler.cpp
+CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o -c /home/dd/Documents/projects/cvmap2.1/src/CameraHandler.cpp
+
+CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/src/CameraHandler.cpp > CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.i
+
+CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/src/CameraHandler.cpp -o CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.s
+
+CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
+CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: /home/dd/Documents/projects/cvmap2.1/src/EdgeDetector.cpp
+CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o -c /home/dd/Documents/projects/cvmap2.1/src/EdgeDetector.cpp
+
+CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/src/EdgeDetector.cpp > CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.i
+
+CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/src/EdgeDetector.cpp -o CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.s
+
+CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
+CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: /home/dd/Documents/projects/cvmap2.1/src/DepthEstimator.cpp
+CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o -c /home/dd/Documents/projects/cvmap2.1/src/DepthEstimator.cpp
+
+CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/src/DepthEstimator.cpp > CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.i
+
+CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/src/DepthEstimator.cpp -o CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.s
+
+CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: CMakeFiles/DepthEstimationApp.dir/flags.make
+CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: /home/dd/Documents/projects/cvmap2.1/src/MapCreator.cpp
+CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o: CMakeFiles/DepthEstimationApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o -MF CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o.d -o CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o -c /home/dd/Documents/projects/cvmap2.1/src/MapCreator.cpp
+
+CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dd/Documents/projects/cvmap2.1/src/MapCreator.cpp > CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.i
+
+CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dd/Documents/projects/cvmap2.1/src/MapCreator.cpp -o CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.s
 
 # Object files for target DepthEstimationApp
 DepthEstimationApp_OBJECTS = \
-"CMakeFiles/DepthEstimationApp.dir/main.cpp.o"
+"CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o" \
+"CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o" \
+"CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o" \
+"CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o" \
+"CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o"
 
 # External object files for target DepthEstimationApp
 DepthEstimationApp_EXTERNAL_OBJECTS =
 
-DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/main.cpp.o
+DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o
+DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o
+DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o
+DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o
+DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o
 DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/build.make
 DepthEstimationApp: /usr/lib/libopencv_gapi.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_stitching.so.4.9.0
@@ -128,6 +192,9 @@ DepthEstimationApp: /usr/lib/libopencv_wechat_qrcode.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_xfeatures2d.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_xobjdetect.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_xphoto.so.4.9.0
+DepthEstimationApp: /home/dd/libtorch/lib/libtorch.so
+DepthEstimationApp: /home/dd/libtorch/lib/libc10.so
+DepthEstimationApp: /home/dd/libtorch/lib/libkineto.a
 DepthEstimationApp: /usr/lib/libopencv_shape.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_highgui.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_datasets.so.4.9.0
@@ -148,8 +215,9 @@ DepthEstimationApp: /usr/lib/libopencv_flann.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_photo.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_imgproc.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_core.so.4.9.0
+DepthEstimationApp: /home/dd/libtorch/lib/libc10.so
 DepthEstimationApp: CMakeFiles/DepthEstimationApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DepthEstimationApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dd/Documents/projects/cvmap2.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DepthEstimationApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DepthEstimationApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -129,29 +129,125 @@ DepthEstimationApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/build
 .PHONY : DepthEstimationApp/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/CameraHandler.o: src/CameraHandler.cpp.o
+.PHONY : src/CameraHandler.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/CameraHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.o
+.PHONY : src/CameraHandler.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/CameraHandler.i: src/CameraHandler.cpp.i
+.PHONY : src/CameraHandler.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/CameraHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.i
+.PHONY : src/CameraHandler.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/CameraHandler.s: src/CameraHandler.cpp.s
+.PHONY : src/CameraHandler.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/CameraHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/CameraHandler.cpp.s
+.PHONY : src/CameraHandler.cpp.s
+
+src/DepthEstimator.o: src/DepthEstimator.cpp.o
+.PHONY : src/DepthEstimator.o
+
+# target to build an object file
+src/DepthEstimator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.o
+.PHONY : src/DepthEstimator.cpp.o
+
+src/DepthEstimator.i: src/DepthEstimator.cpp.i
+.PHONY : src/DepthEstimator.i
+
+# target to preprocess a source file
+src/DepthEstimator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.i
+.PHONY : src/DepthEstimator.cpp.i
+
+src/DepthEstimator.s: src/DepthEstimator.cpp.s
+.PHONY : src/DepthEstimator.s
+
+# target to generate assembly for a file
+src/DepthEstimator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/DepthEstimator.cpp.s
+.PHONY : src/DepthEstimator.cpp.s
+
+src/EdgeDetector.o: src/EdgeDetector.cpp.o
+.PHONY : src/EdgeDetector.o
+
+# target to build an object file
+src/EdgeDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.o
+.PHONY : src/EdgeDetector.cpp.o
+
+src/EdgeDetector.i: src/EdgeDetector.cpp.i
+.PHONY : src/EdgeDetector.i
+
+# target to preprocess a source file
+src/EdgeDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.i
+.PHONY : src/EdgeDetector.cpp.i
+
+src/EdgeDetector.s: src/EdgeDetector.cpp.s
+.PHONY : src/EdgeDetector.s
+
+# target to generate assembly for a file
+src/EdgeDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/EdgeDetector.cpp.s
+.PHONY : src/EdgeDetector.cpp.s
+
+src/MapCreator.o: src/MapCreator.cpp.o
+.PHONY : src/MapCreator.o
+
+# target to build an object file
+src/MapCreator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.o
+.PHONY : src/MapCreator.cpp.o
+
+src/MapCreator.i: src/MapCreator.cpp.i
+.PHONY : src/MapCreator.i
+
+# target to preprocess a source file
+src/MapCreator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.i
+.PHONY : src/MapCreator.cpp.i
+
+src/MapCreator.s: src/MapCreator.cpp.s
+.PHONY : src/MapCreator.s
+
+# target to generate assembly for a file
+src/MapCreator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/MapCreator.cpp.s
+.PHONY : src/MapCreator.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DepthEstimationApp.dir/build.make CMakeFiles/DepthEstimationApp.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DepthEstimationApp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/CameraHandler.o"
+	@echo "... src/CameraHandler.i"
+	@echo "... src/CameraHandler.s"
+	@echo "... src/DepthEstimator.o"
+	@echo "... src/DepthEstimator.i"
+	@echo "... src/DepthEstimator.s"
+	@echo "... src/EdgeDetector.o"
+	@echo "... src/EdgeDetector.i"
+	@echo "... src/EdgeDetector.s"
+	@echo "... src/MapCreator.o"
+	@echo "... src/MapCreator.i"
+	@echo "... src/MapCreator.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
