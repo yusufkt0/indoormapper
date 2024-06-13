@@ -2,9 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 project(DepthEstimationApp)
 
 # Find OpenCV package
+
+include_directories(/usr/include/opencv4/)
 find_package(OpenCV REQUIRED)
 
-# Include directories
 include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(include)
 

@@ -6,5 +6,5 @@ CXX_DEFINES = -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE
 
 CXX_INCLUDES = -I/home/dd/Documents/projects/cvmap2.1/include -isystem /usr/include/opencv4 -isystem /home/dd/libtorch/include -isystem /home/dd/libtorch/include/torch/csrc/api/include
 
-CXX_FLAGS = -std=gnu++14 -D_GLIBCXX_USE_CXX11_ABI=0
+CXX_FLAGS = -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=0
 
