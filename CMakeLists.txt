@@ -23,3 +23,4 @@ find_package(Torch REQUIRED)
 target_link_libraries(DepthEstimationApp ${TORCH_LIBRARIES})
 set_property(TARGET DepthEstimationApp PROPERTY CXX_STANDARD 17)
 
+MESSAGE("OpenCV_LIBS: " ${OpenCV_LIBS} )
