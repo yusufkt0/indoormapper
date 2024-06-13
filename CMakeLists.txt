@@ -20,5 +20,5 @@ find_package(Torch REQUIRED)
 
 # Link Torch libraries
 target_link_libraries(DepthEstimationApp ${TORCH_LIBRARIES})
-set_property(TARGET DepthEstimationApp PROPERTY CXX_STANDARD 14)
+set_property(TARGET DepthEstimationApp PROPERTY CXX_STANDARD 17)
 
