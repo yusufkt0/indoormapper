@@ -195,8 +195,9 @@ DepthEstimationApp: /usr/lib/libopencv_xphoto.so.4.9.0
 DepthEstimationApp: /home/dd/libtorch/lib/libtorch.so
 DepthEstimationApp: /home/dd/libtorch/lib/libc10.so
 DepthEstimationApp: /home/dd/libtorch/lib/libkineto.a
-DepthEstimationApp: /usr/lib/libopencv_shape.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_highgui.so.4.9.0
+DepthEstimationApp: /usr/lib/libopencv_objdetect.so.4.9.0
+DepthEstimationApp: /usr/lib/libopencv_shape.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_datasets.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_plot.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_text.so.4.9.0
@@ -207,7 +208,6 @@ DepthEstimationApp: /usr/lib/libopencv_ximgproc.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_video.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_videoio.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_imgcodecs.so.4.9.0
-DepthEstimationApp: /usr/lib/libopencv_objdetect.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_calib3d.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_dnn.so.4.9.0
 DepthEstimationApp: /usr/lib/libopencv_features2d.so.4.9.0

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/imgproc.hpp>
 #include "../include/CameraHandler.h"
 #include "../include/EdgeDetector.h"
 #include "../include/DepthEstimator.h"
@@ -47,10 +48,10 @@ int main(int argc, char** argv) {
         normalize(depthMap, depthMapVisual, 0, 255, NORM_MINMAX, CV_8U);
 
         // Display the frames, edges, and depth map
-        imshow("Camera Input", frame);
-        imshow("Edges", edges);
-        imshow("Depth Map", depthMapVisual);
-        imshow("2D Map", mapCreator.getMap());
+        // cv::imshow("Camera Input", frame);
+        // cv::imshow("Edges", edges);
+        // cv::imshow("Depth Map", depthMapVisual);
+        // cv::imshow("2D Map", mapCreator.getMap());
 
         // Break the loop if 'q' is pressed
         if (waitKey(1) == 'q') {
