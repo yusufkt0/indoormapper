@@ -48,10 +48,10 @@ int main(int argc, char** argv) {
         normalize(depthMap, depthMapVisual, 0, 255, NORM_MINMAX, CV_8U);
 
         // Display the frames, edges, and depth map
-        // cv::imshow("Camera Input", frame);
-        // cv::imshow("Edges", edges);
-        // cv::imshow("Depth Map", depthMapVisual);
-        // cv::imshow("2D Map", mapCreator.getMap());
+        cv::imshow("Camera Input", frame);
+        cv::imshow("Edges", edges);
+        cv::imshow("Depth Map", depthMapVisual);
+        cv::imshow("2D Map", mapCreator.getMap());
 
         // Break the loop if 'q' is pressed
         if (waitKey(1) == 'q') {
